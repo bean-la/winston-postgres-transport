@@ -17,7 +17,7 @@
   "main": "lib/winston-postgres-transport.js",
   "types": "lib/winston-postgres-transport.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p .",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "postversion": "git push && git push --tags",
